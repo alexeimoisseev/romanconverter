@@ -31,7 +31,7 @@ public class RomanToDecimal {
 
         int result = 0;
         int prev = 0;
-        for (int i = roman.length() - 1; i >= 0; i--) {
+        for (int i = romanNormalized.length() - 1; i >= 0; i--) {
             int current = values.get(romanNormalized.charAt(i));
             // if previous character represents smaller number,
             // it means that we have a shortened version of number,
