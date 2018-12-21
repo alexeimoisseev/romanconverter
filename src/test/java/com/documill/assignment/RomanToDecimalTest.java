@@ -18,12 +18,12 @@ public class RomanToDecimalTest {
     }
 
     @Test(expected = IllegalArgumentException.class)
-        public void testEmpty() {
+    public void testEmpty() {
         int zero = convert("");
     }
 
     @Test(expected = IllegalArgumentException.class)
-        public void testInvalid() {
+    public void testInvalid() {
         int invalid = convert("XCA");
     }
 
